@@ -10,6 +10,9 @@ namespace VariousTypes
             int xp_needed = 1000000;
             long gold = 10000000000;
             Console.WriteLine($"Power: {power}, xp: {xp_needed}, gold: {gold}")
+
+            char c1 = '\u2764', c2 = '\u2766' c3 = '\u5350';
+            Console.WriteLine($"\nChars: {c1} {c2} {c3}");
         }
     }
 }
