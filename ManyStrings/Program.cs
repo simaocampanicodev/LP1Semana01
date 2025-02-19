@@ -14,7 +14,7 @@ namespace ManyStrings
 
             int money = 10;
             int moneyNeeded = 100;
-            Console.WriteLine($"You have {money} dollars. You need ({moneyNeeded} - {money}) more.");
+            Console.WriteLine($"You have {money} dollars. You need ({moneyNeeded - money}) more.");
 
             double amount = 1.111111;
             Console.WriteLine($"2 decimal places: {amount:f2}");
