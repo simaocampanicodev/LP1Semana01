@@ -17,7 +17,6 @@ namespace VariousTypes
             double money = 10.5d;
             float chance_perc = 0.50f;
             Console.WriteLine($"\n\nMoney: {money}, chance: {chance_perc}");
-
         }
     }
 }
