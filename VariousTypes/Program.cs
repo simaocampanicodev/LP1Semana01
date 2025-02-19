@@ -16,11 +16,11 @@ namespace VariousTypes
 
             double money = 10.5d;
             float chance_perc = 0.50f;
-            Console.WriteLine($"\n\nMoney: {money}, chance: {chance_perc}");
+            Console.WriteLine($"\nMoney: {money}, chance: {chance_perc}");
 
             bool true_power = true;
             bool false_power = false;
-            Console.WriteLine($"Power: {true_power} or {false_power}");
+            Console.WriteLine($"\nPower: {true_power} or {false_power}");
         }
     }
 }
