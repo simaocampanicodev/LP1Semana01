@@ -18,6 +18,11 @@ namespace ManyStrings
 
             double amount = 1.111111;
             Console.WriteLine($"2 decimal places: {amount:f2}");
+
+            int x = 3;
+            int y = 7;
+            Console.WriteLine($"{x} + {y} is equal to {x + y}.");
+            Console.WriteLine($"The value of x is {x} and the value of y is {y}.");
         }
     }
 }
