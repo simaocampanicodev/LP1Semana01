@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace AskForInput
 {
@@ -6,6 +7,7 @@ namespace AskForInput
     {
         private static void Main(string[] args)
         {
+            CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
             Console.WriteLine("Digite um número inteiro: ");
             string input = Console.ReadLine();
             int number =  0;
