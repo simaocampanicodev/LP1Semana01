@@ -20,10 +20,10 @@ namespace Percentagem
             double number3 = double.Parse(input3);
             double number4 = double.Parse(input4);
 
-            Console.WriteLine($"{number1,7:p2}");
-            Console.WriteLine($"{number2,7:p2}");
-            Console.WriteLine($"{number3,7:p2}");
-            Console.WriteLine($"{number4,7:p2}");
+            Console.WriteLine($"{number1,1:p2}");
+            Console.WriteLine($"{number2,1:p2}");
+            Console.WriteLine($"{number3,2:p2}");
+            Console.WriteLine($"{number4:p2}");
         }
     }
 }
