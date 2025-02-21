@@ -15,15 +15,15 @@ namespace Percentagem
             string input3 = Console.ReadLine();
             string input4 = Console.ReadLine();
 
-            double number1 = double.Parse(input1);
-            double number2 = double.Parse(input2);
-            double number3 = double.Parse(input3);
-            double number4 = double.Parse(input4);
+            float number1 = float.Parse(input1);
+            float number2 = float.Parse(input2);
+            float number3 = float.Parse(input3);
+            float number4 = float.Parse(input4);
 
-            Console.WriteLine($"{number1,1:p2}");
-            Console.WriteLine($"{number2,1:p2}");
-            Console.WriteLine($"{number3,2:p2}");
-            Console.WriteLine($"{number4:p2}");
+            Console.WriteLine($"{number1,8:p2}");
+            Console.WriteLine($"{number2,8:p2}");
+            Console.WriteLine($"{number3,8:p2}");
+            Console.WriteLine($"{number4,8:p2}");
         }
     }
 }
